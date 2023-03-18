@@ -1,0 +1,119 @@
+
+
+
+.logo {
+     width: 800px;
+     display: flex;
+     flex-direction: row;
+     background-color: rgb(3, 20, 20);
+     color: rgb(247, 214, 200);
+     font-family: 'Roboto', sans-serif;
+     border: 10px solid rgb(182, 152, 138);
+}
+
+h1{
+    font-size: 100px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(3, 20, 20);
+    color: rgb(247, 214, 200);
+    border: 2px solid rgb(182, 152, 138);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+@keyframes flash {
+    0% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+
+  }
+
+  div {
+    border: 1px solid rgb(182, 152, 138);
+  }
+  
+  .logo div .a2{
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a1 {
+    animation-delay: 0s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a2 {
+    animation-delay: .1s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a3 {
+    animation-delay: .2s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a4 {
+    animation-delay: .3s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a5 {
+    animation-delay: .4s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a6 {
+    animation-delay: .5s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a7 {
+    animation-delay: .6s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a8 {
+    animation-delay: .7s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a10 {
+    animation-delay: .8s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .a11 {
+    animation-delay: .9s;
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  
